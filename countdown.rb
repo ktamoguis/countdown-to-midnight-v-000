@@ -10,5 +10,8 @@ def countdown(number)
 end
 
 def countdown_with_sleep(number2)
-
+  number = 1000
+  while number2 > 0
+    number -= 1
+  end
 end
